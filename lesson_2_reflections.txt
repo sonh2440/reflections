@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Git init! Repository erstellen, Track-files werden erstellt, Aufzeichnung beginnt!
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Man kann bestimmte Dateien in die staging area comitten (git add), anstatt immer alle direkt der working directory zu ändern. Logisches Update kann mit Nachricht versehen werden.
+
