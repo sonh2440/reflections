@@ -2,7 +2,13 @@ What happens when you initialize a repository? Why do you need to do it?
 
 Git init! Repository erstellen, Track-files werden erstellt, Aufzeichnung beginnt!
 
+
 How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Repository enthält alle gespeicherten Dateien und deren History. Working Directory ist der aktuelle Stand, an dem evt Änderungen vorgenommen wurden. Diese können in die Staging area geladen werden, um sie anschließend zu commiten.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
 
 Man kann bestimmte Dateien in die staging area comitten (git add), anstatt immer alle direkt der working directory zu ändern. Logisches Update kann mit Nachricht versehen werden.
 
