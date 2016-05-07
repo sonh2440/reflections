@@ -1,0 +1,9 @@
+Wenn Editor immer noch nicht funktioniert!
+
+git config --global core.editor "vim"
+oder erstze vim durch Pfad von Sublime
+
+
+Git remote add 'Name' 'Link of Github'
+Git remote -v (more info)
+git push 'Name' 'Branch'
