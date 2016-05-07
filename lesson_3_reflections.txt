@@ -1,9 +1,14 @@
 Wenn Editor immer noch nicht funktioniert!
-
-git config --global core.editor "vim"
-oder erstze vim durch Pfad von Sublime
-
+In .gitconfig file gehen
+[core]
+  editor = 'F:/Program Files/Sublime Text 2/sublime_text.exe' --wait
 
 Git remote add 'Name' 'Link of Github'
 Git remote -v (more info)
 git push 'Name' 'Branch'
+
+
+When would you want to use a remote repository rather than keeping all your work local?
+-Working with other people
+-Working from different locations
+
